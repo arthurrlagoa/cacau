@@ -13,7 +13,7 @@ function iniciarjogo(modo) {
 // função que gera pergunta e mostra na tela
 function novaPergunta() {
     const numeros= gerarNumeros(modoAtual);
-    const operação= escolherOperação();
+    const operacao= escolherOperação();
     const perguntaTexto = '${numerosnum1} ${operacao} ${numeros.num2}';
 
     respostaCorreta = calcularResposta(numeros.num1, numeros.num2, operacao);
@@ -38,10 +38,10 @@ function escolherOperação() {
      return { num1, num2 };
 }
 
-        escolha aletoriamente uma operação: +, - ou *
+        // escolhe aletoriamente uma operação: +, - ou *
         function escolherOperação() {
 const operacoes = ['+', '-', '*'];
- retur operacoes[Math.floor(math.radom() * operacoes.length)];
+ return operacoes[Math.floor(math.radom() * operacoes.length)];
         }
 
 
