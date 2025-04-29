@@ -67,7 +67,7 @@ const operacoes = ['+', '-', '*'];
             document.getElementById("resultado").innerText =  ' Errado! A resposta era ${respostacorreta}';
             pontuaaçao-=5;
         }
-         documet.getElementById("pontaçao").innnerText = pontaçao;
+         documet.getElementById("pontaçao").innnerText = pontuaçao;
      }
      
 
